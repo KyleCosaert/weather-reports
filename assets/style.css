@@ -1,0 +1,208 @@
+* { 
+    margin:0; 
+    padding:0
+} 
+
+:root { 
+    --primary: #000000; 
+    --secondary: #4f4f4f; 
+    --tertiary: #545454; 
+    --blue1: #3d573d; 
+    --blue2: #416246; 
+} 
+
+
+.banner { 
+  background-image: linear-gradient(to right, var(--blue1), var(--blue2)); 
+  color: rgb(0, 0, 0); 
+  padding: 20px; 
+  text-align: center;
+} 
+
+#citydata p { 
+    margin: 20px 20px 0px 15px
+} 
+
+.height2 p { 
+    margin: 10px 10px 0px 0px 
+}
+h1 { 
+    font-weight: bold; 
+    
+} 
+
+h3 { 
+    font-weight: bold
+}
+
+.search { 
+    width: 5rem; 
+    background-color: var(--tertiary); 
+    color: white; 
+    border-radius: .5rem;  
+    padding: .5rem; 
+    margin: .5rem; 
+    margin-left: 0; 
+    margin-right: 0;
+}   
+
+#searchheading { 
+    margin-bottom: 1rem; 
+}
+
+.UI { 
+    width: 5rem; 
+    background-color: var(--secondary); 
+    color: black; 
+    border-radius: 4px;  
+    padding: 8px; 
+    margin: 8px; 
+    margin-left: 0; 
+    margin-right: 0;
+}  
+
+.UIform { 
+    width: 83.5%; 
+    background-color: white; 
+    color: black; 
+    border-radius: 4px;  
+    padding: 10px; 
+    margin: 8px; 
+    margin-left: 0; 
+    margin-right: 0;
+    font-size: large;
+} 
+
+.weather { 
+    border: 2px; 
+    margin-bottom: 25px; 
+    border-style: solid; 
+    border-width: 1px;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  } 
+
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+
+
+ 
+  .align-content-left { 
+    justify-content: left;
+  } 
+
+  .align-content-space-around { 
+      align-content: space-around;
+  } 
+
+  .itemscenter { 
+    align-items: center;
+} 
+
+ 
+.justify-space-around {
+    justify-content: space-around;
+  } 
+
+  .justify-space-between {
+    justify-content: space-between;
+  }   
+
+  .justify-space-evenly { 
+      justify-content: space-evenly;
+  } 
+
+  .justify-left {
+      justify-content: left;
+  }
+
+  .margin { 
+    margin: 16px 0;
+  } 
+
+  .marginleft { 
+      margin-left: 15px; 
+      margin-top: 0;
+  }
+  
+  .UVindexgreen { 
+      background-color: green; 
+      border-radius: 8px;  
+      color: white; 
+      padding: 4px 8px 4px 8px;
+  } 
+
+  .UVindexyellow { 
+    background-color: yellow; 
+    border-radius: 8px;  
+    color: black; 
+    padding: 4px 8px 4px 8px;
+} 
+
+.UVindexred { 
+    background-color: red; 
+    border-radius: 8px;  
+    color: white; 
+    padding: 4px 8px 4px 8px;
+}
+
+ 
+
+.col4 {
+    flex: 0 0 calc(100% * 4 / 12 - 3%);
+  } 
+
+
+.col8 {
+    flex: 0 0 calc(100% * 8 / 12 - 3%);
+  } 
+
+
+
+
+
+.height { 
+    
+    margin-top: 25px; 
+    height: auto; 
+    padding-bottom: 20px; 
+}  
+
+.height1 { 
+    
+    margin-top: 25px; 
+    height: 200px; 
+    padding-bottom: 20px; 
+}  
+
+.height2 { 
+    
+    height: 120px; 
+    background-color: var(--primary); 
+    padding: 8px; 
+    color: white; 
+    padding-right: 24px; 
+    width: 100px;
+} 
+
+
+.full { 
+    width: 100%; 
+}
+
+.width { 
+    width: 89%; 
+} 
+
+
+
+.hide { 
+    visibility: hidden;
+}

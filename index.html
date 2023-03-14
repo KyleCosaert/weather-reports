@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Reports</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+
+    <div class="banner">
+        <h1> Weather </h1>
+    </div>
+    <main class="flex-row justify-space-around"> 
+
+        <section class="col4 flex-column height itemscenter"> 
+         
+         <div class="align-content-left width"> 
+        <H1 id="searchheading"> Search Any Location </H1>  
+        </div>  
+        
+        <form id="searchbar" class="full flex-column itemscenter"> 
+        <input id="searchoutput" class="UIform" type="text" placeholder="search for your city"> 
+        </form> 
+        
+        <button class="search" id="searchbutton"> Search</button> 
+        
+        <hr id="line" class="width hide">
+        
+        <div id="container" class="full flex-column itemscenter">  
+        </div> 
+        
+        </section> 
+        
+        <section class="col8"> 
+          <div class="weather height1 flex-column justify-space-evenly"> 
+           <div>  <h1 class="margin marginleft" id="MainCity"></h1> </div>
+        
+            <div id="citydata"> 
+            <p> Temp: <span id="MainTemp"> </span></p> 
+            <p> Wind: <span id="MainWind"> </span></p> 
+            <p> Humidity: <span id="MainHumidity"> </span></p>
+            <p> UV index: <span id="MainUV">  </span></p> 
+            </div>
+          </div> 
+        
+          <h1> 5-day Forecast:</h1> 
+        <div id="forecast"class="flex-row justify-space-between margin"> 
+          </div>
+        </section> 
+        
+        
+        </main>
+          
     
+    <script src="./assets/reports.js"> </script>
 </body>
 </html>
